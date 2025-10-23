@@ -1,0 +1,114 @@
+<meta name="viewport" contents="width=device-width,initial-scale=1.0">
+<style>
+    .cont{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+  .one{
+        background-color: aqua;
+        height:100px;
+        width: 100px;
+        margin:10px;
+        flex-basis: 20%;
+    }
+    .to{
+        background-color:blueviolet;
+        height:100px;
+        width: 100px;
+        margin:10px;
+        flex-basis: 20%;
+    }
+    .th{
+        background-color:cadetblue;
+        height:100px;
+        width: 100px;
+        margin:10px;
+        flex-basis: 20%;
+    }
+    .fo{
+        background-color:brown;
+        height:100px;
+        width: 100px;
+        margin:10px;
+        flex-basis:20%;
+    }
+ @media screen and (max-width:1000px) {
+        .one{
+            flex-basis:40%;
+        }
+        .to{
+            flex-basis: 40%;
+        }
+         .th{
+            flex-basis:40%;
+        }
+         .fo{
+            flex-basis:40%;
+        }
+
+    } 
+     @media screen and (max-width:700px) {
+        .one{
+            flex-basis:100%;
+        }
+        .to{
+            flex-basis: 100%;
+        }
+         .th{
+            flex-basis:100%;
+        }
+         .fo{
+            flex-basis:100%;
+        }
+
+    }    
+</style>
+<div class="cont">
+<div class="one"></div>
+<div class="to"></div>
+<div class="th"></div>
+<div class="fo"></div>
+</div>
+<hr>
+<style>
+    .cont2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+.on{
+background-color: greenyellow;
+height: 100px;
+width: 100px;
+margin: 10px;
+flex-basis: 100%;
+}
+.two{background-color:black;
+height: 100px;
+width: 100px;
+margin:10px;
+flex-basis:30%;
+}
+@media screen and (max-width:1000px) {
+    .two{
+        flex-basis: 100%;
+    }
+}
+@media screen and (max-width:700px){
+    .cont2{
+        display: block;
+    }
+}
+</style>
+<div class="cont2">
+<div class= "on">
+</div>
+<div class= "two">
+</div>
+<div class= "two">
+</div>
+<div class= "two">
+</div>
+</div>
+
